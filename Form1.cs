@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+﻿namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -31,7 +31,7 @@ namespace WinFormsApp1
             for (int i = 1; i <= soNam; i++)
             {
                 double tienLai = soTien + laiSuat;
-                LbKq.Items.Add("Nam " + i + " Tien goc :" + soTien.ToString());
+                LbKq.Items.Add("Năm " + i + " Tiền gốc :" + soTien.ToString() + "- Lãi " + tienLai.ToString());
                 soTien += tienLai;
             }
 
